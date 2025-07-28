@@ -74,9 +74,16 @@ source venv/bin/activate
 
 
 2. **Install Requirements**  
-pip install pandas duckdb pyarrow numpy python-snappy pytest
-OR
-pip install -r requirements.txt
+pip install pandas duckdb pyarrow numpy python-snappy pytest  
+OR  
+pip install -r requirements.txt  
+
+3. **Add/prepare your raw input files in the data/raw/ folder.**  
+
+4. **Run Pipeline Scripts from Project Root**
+   python scripts/ingest.py  
+   python scripts/transform.py  
+   python scripts/validate.py  
 
 
 ### 🐳 Docker Setup (Recommended for Consistency)
