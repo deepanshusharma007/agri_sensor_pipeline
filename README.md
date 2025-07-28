@@ -40,7 +40,7 @@ This project implements a **production-grade, modular data pipeline** for agricu
 ---
 
 ## 🗂️ Directory Structure
-'''bash
+```bash
 agri_sensor_pipeline/
 ├── data/
 │ ├── raw/ # Place incoming Parquet data files here
@@ -54,7 +54,7 @@ agri_sensor_pipeline/
 │ └── test_transform.py# Example unit test
 ├── Dockerfile # Docker environment definition
 ├── README.md # Project documentation (this file)
-'''
+```
 
 
 ---
