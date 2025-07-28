@@ -140,9 +140,9 @@ docker run -it --rm -v "C:\Full Path till project directory(agri_senor_pipeline)
 ## 🧑‍💻 Development & Testing
 
 **Run unit tests:**  
-pytest  
-OR  
-python -m tests.test_transform (You need to be in the project root directory)  
+    pytest  
+    OR  
+    python -m tests.test_transform (You need to be in the project root directory)  
 
 *(Make sure you’re in the project root, and both scripts/ and tests/ folder have an empty `__init__.py` file for package structure.)*
 
