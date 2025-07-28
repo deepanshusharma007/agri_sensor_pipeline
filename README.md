@@ -84,7 +84,7 @@ pip install -r requirements.txt
 1. **[Install Docker Desktop](https://www.docker.com/products/docker-desktop/)** (if not already installed).
 2. **Build Docker Image**  
 docker build -t agri-pipeline .
-3. **Run Docker Container (with data volume mounted)**
+3. **Run Docker Container (with data volume mounted)**  
 docker run -it --rm -v "C:\Full Path till project directory(agri_senor_pipeline)\data:/app/data" agri-pipeline
 
 > On Windows, use the absolute path if `%cd%/data` does not work.
