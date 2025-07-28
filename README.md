@@ -80,7 +80,7 @@ pip install -r requirements.txt
 
 3. **Add/prepare your raw input files in the data/raw/ folder.**  
 
-4. **Run Pipeline Scripts from Project Root**
+4. **Run Pipeline Scripts from Project Root**  
    python scripts/ingest.py  
    python scripts/transform.py  
    python scripts/validate.py  
