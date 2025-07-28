@@ -139,10 +139,10 @@ docker run -it --rm -v "C:\Full Path till project directory(agri_senor_pipeline)
 
 ## 🧑‍💻 Development & Testing
 
-**Run unit tests:**
-pytest
-OR
-python -m tests.test_transform (You need to be in the project root directory)
+**Run unit tests:**  
+pytest  
+OR  
+python -m tests.test_transform (You need to be in the project root directory)  
 
 *(Make sure you’re in the project root, and both scripts/ and tests/ folder have an empty `__init__.py` file for package structure.)*
 
@@ -150,15 +150,15 @@ python -m tests.test_transform (You need to be in the project root directory)
 
 ## 🔄 Typical Workflow (Step by Step)
 
-1️⃣ Add new .parquet files to data/raw/
-2️⃣ Run ingestion:
-python scripts/ingest.py
-3️⃣ Run transformation:
-python scripts/transform.py
-4️⃣ Generate validation report:
-python scripts/validate.py
-5️⃣ Inspect processed files in data/processed/<date>/
-6️⃣ Review data_quality_report.csv for statistics
+1️⃣ Add new .parquet files to data/raw/  
+2️⃣ Run ingestion:  
+python scripts/ingest.py  
+3️⃣ Run transformation:  
+python scripts/transform.py  
+4️⃣ Generate validation report:  
+python scripts/validate.py  
+5️⃣ Inspect processed files in data/processed/<date>/  
+6️⃣ Review data_quality_report.csv for statistics  
 
 
 ---
