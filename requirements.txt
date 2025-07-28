@@ -1,0 +1,15 @@
+colorama
+duckdb
+iniconfig
+numpy
+packaging
+pandas
+pip
+pluggy
+pyarrow
+Pygments
+pytest
+python-dateutil
+pytz
+six
+tzdata

@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.log
+
+# Jupyter/IPython
+.ipynb_checkpoints
+*.ipynb
+
+# Environment
+venv/
+env/
+ENV/
+.venv/
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data pipeline specifics
+# Ignore local DuckDB databases/logs
+data/ingestion_log.duckdb
+data/ingestion_log.duckdb-wal
+data/*.db
+data/*.sqlite
+
+# Ignore processed data (optional: remove if you want to push sample processed output)
+data/processed/
+data/processed/
+data/*.csv
+
+# Ignore all raw and processed data (optional: keep sample input if required)
+data/raw/
+data/raw/*
+*.parquet
+
+# Test output & cache
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Docker
+*.pem
+*.bak
+*.swp
+
+# Ignore data quality report unless you want to share a sample
+data/data_quality_report.csv
+
+# Ignore sample outputs generated locally (unless they are for demonstration)
+*.tmp
+*.out
+*.bak
+
+# Ignore VSCode/IDE settings (optional)
+.vscode/
